@@ -31,8 +31,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 if you have docker installed then
 ```run docker build . ```          in the terminal
 
-```docker build -t stephengrinder/redis:latest . ```
-
 you will get an imageId and run the command
 
 ```docker run <id> ```
