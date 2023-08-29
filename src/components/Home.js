@@ -23,6 +23,10 @@ function Home() {
   const [applicationResult, setApplicationResult] = useState(null);
 
   const handleRequestBalanceSheet = async () => {
+    if (!businessDetails.name || !businessDetails.yearEstablished || !loanAmount) {
+      alert('Please fill in all required fields before requesting the balance sheet.');
+      return;
+    }
     console.log(">>>>>>>>>making request for balance sheet")
     const response = await fetch('https://loan-application-ewu4.onrender.com/api/fetchBalanceSheet');
     const data = await response.json();
