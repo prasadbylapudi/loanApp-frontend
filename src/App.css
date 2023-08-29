@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+.balance-sheet-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.balance-sheet-table th,
+.balance-sheet-table td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
