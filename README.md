@@ -17,6 +17,9 @@
 ```bash
 https://github.com/prasadbylapudi/loanApp-frontend.git
 ```
+### `npm install`
+
+then 
 
 ### `npm start`
 
