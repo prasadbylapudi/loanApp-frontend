@@ -26,7 +26,7 @@ then
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-#  if you are using Docker 
+#  if you wanted to run  using Docker 
 
 if you have docker installed then
 ```run docker build . ```          in the terminal
